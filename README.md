@@ -538,7 +538,7 @@ In this project, a Windows 11 host-only client virtual machine is connected to a
 
 <table>
   <tr>
-    <td><img src="https://imgur.com/eGk4SGt.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/104ZPVd.png" height="75%" width="75%" /></td>
   </tr>
 </table>
 
@@ -554,6 +554,170 @@ In this project, a Windows 11 host-only client virtual machine is connected to a
     <td><img src="https://imgur.com/C2k3z92.png" height="750%" width="75%" /></td>
     <td><img src="https://imgur.com/BPvxZNc.png" height="100%" width="100%" /></td>
     <td><img src="https://imgur.com/MCPpArg.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>Restart the Windows 11 virtual machine. The error message should not show up after this.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/3JEuTX4.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/rSHjWpu.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b> Go back to the Windows 11 client, Computer Name/Domain Changes. Rename the computer to: RIT-CL1. Click: OK.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/5wjxykE.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/1aXdLiH.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/1ZnYbbX.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>A box will pop-up called: Computer Name/Domain Changes. Type: A Windows Server’s administrator user name (ex: Administrator@corp.rashaditlabs.com  OR  CORP\Administrator) and password. Click: OK (blue box).</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/dpxMDDx.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/uvpIQN3.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>When you connect your Windows 11 client computer with the Windows Server Active Directory User and Computer’s domain successfully, you will get a pop-up box that says: “Welcome to the “the domain (ex: corp.rashaditlabs.com) domain.”. Click: OK.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/OF8SEQl.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/fjufXKx.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>A box will pop-up that says: “You must restart your computer to apply these changes”. Click: OK.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/Rw4uX9d.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/YFkqXfR.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>You will go back to the box called: System Properties. Click: Close.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/4OHn9d8.png" height="50%" width="50%" /></td>
+    <td><img src="https://imgur.com/GsPLEVk.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>A box will pop-up that says: “You must restart your computer to apply these changes”. Click: Restart Now. Your computer will restart.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/mhuT2Si.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/LfS0Iei.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/GYUGf4W.png" height="50%" width="50%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>On your Windows Server’s Active Directory Users and Computers. Click: The domain you just added your Windows 11 computer to. Then, Click: Computers folder, you will see your Windows 11 computer name (ex: RIT-CL1), which means your Windows 11 computer is now added to the domain.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/HWzd7Uy.png" height="75%" width="75%" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/imHICPk.png" height="75%" width="75%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>On your Windows 11 sign-in screen, you will now see in the bottom-left corner, the local user name and Other user). Click: Other user - to sign-in the Windows 11 computer with a user from the domain you just connect the Windows 11 computer to. You will now see: Sign in to: “Domain name – ex: CORP” and “How do I sign in to another domain? – this is how you know when a computer is connected to a domain.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/Sl5g6B7.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/yMSL5uY.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/6FEEVdw.png" height="50%" width="50%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>Sign-In with an administrator account of that domain, their username (ex: Administrator@corp.rashaditlabs.com  OR  CORP\Administrator) and password. When done successfully for the first time, you will see that the computer has to setup some things and you will get a message that says: “This might take a few minutes.”. Once setup is done, you will see the Windows 11 main start-up screen and that you are signed-in as an administrator account from Windows Server’s Active Directory Users and Computers.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/dJmP0tc.png" height="50%" width="50%" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/cvvwa02.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/bQJ4zOF.png" height="100%" width="100%" /></td>
   </tr>
 </table>
 
