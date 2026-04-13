@@ -242,10 +242,6 @@ In this project, a Windows 11 host-only client virtual machine is connected to a
 
 
 </div>
-  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>HOW TO SOLVE THE ERROR: “…A general network error occurred.” – PART TWO – WINDOWS 11</b></span> 
-<br/><br/>
-
-</div>
   <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>Go back to the pop-up box called: Computer Name/Domain Changes. Click: OK. If you still get the error: “…A general network error occurred.”. Click: OK. Go to the next fix. If successful, go to: WINDOWS 11 – CLIENT COMPUTER SETUP CONTINUED.</b></span> 
 <br/><br/>
 
@@ -253,12 +249,12 @@ In this project, a Windows 11 host-only client virtual machine is connected to a
   <tr>
     <td><img src="https://imgur.com/kEaeqTq.png" height="50%" width="50%" /></td>
     <td><img src="https://imgur.com/Vs3lqqi.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/0cVCsmy.png" height="75%" width="75%" /></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="https://imgur.com/0cVCsmy.png" height="75%" width="75%" /></td>
     <td><img src="https://imgur.com/5oPrPvj.png" height="100%" width="100%" /></td>
     <td><img src="https://imgur.com/6D3BOcK.png" height="100%" width="100%" /></td>
   </tr>
@@ -268,7 +264,7 @@ In this project, a Windows 11 host-only client virtual machine is connected to a
 
 
 </div>
-  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>HOW TO SOLVE THE ERROR: “…A general network error occurred.” – PART THREE – WINDOWS SERVER 2025</b></span> 
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>HOW TO SOLVE THE ERROR: “…A general network error occurred.” – PART TWO – WINDOWS SERVER 2025</b></span> 
 <br/><br/>
 
 </div>
@@ -284,7 +280,7 @@ In this project, a Windows 11 host-only client virtual machine is connected to a
 
 <table>
   <tr>
-    <td><img src="https://imgur.com/J614WMx.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/NbeS0TO.png" height="100%" width="100%" /></td>
     <td><img src="https://imgur.com/7hfP4XH.png" height="100%" width="100%" /></td>
   </tr>
 </table>
@@ -406,7 +402,7 @@ In this project, a Windows 11 host-only client virtual machine is connected to a
 
 
 </div>
-  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>HOW TO SOLVE THE ERROR: “…A general network error occurred.” – PART FOUR – WINDOWS 11</b></span> 
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>HOW TO SOLVE THE ERROR: “…A general network error occurred.” – PART THREE – WINDOWS 11</b></span> 
 <br/><br/>
 
 </div>
@@ -417,12 +413,12 @@ In this project, a Windows 11 host-only client virtual machine is connected to a
   <tr>
     <td><img src="https://imgur.com/kEaeqTq.png" height="50%" width="50%" /></td>
     <td><img src="https://imgur.com/Vs3lqqi.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/0cVCsmy.png" height="75%" width="75%" /></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="https://imgur.com/0cVCsmy.png" height="75%" width="75%" /></td>
     <td><img src="https://imgur.com/5oPrPvj.png" height="100%" width="100%" /></td>
     <td><img src="https://imgur.com/6D3BOcK.png" height="100%" width="100%" /></td>
   </tr>
@@ -438,20 +434,126 @@ In this project, a Windows 11 host-only client virtual machine is connected to a
 <table>
   <tr>
     <td><img src="https://imgur.com/1nApdzs.png" height="100%" width="100%" /></td>
-    <td><img src="https://imgur.com/Vs3lqqi.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/sUpCBcT.png" height="75%" width="75%" /></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="https://imgur.com/0cVCsmy.png" height="50%" width="50%" /></td>
+    <td><img src="https://imgur.com/VDf9wr2.png" height="100%" width="100%" /></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="https://imgur.com/kEaeqTq.png" height="100%" width="100%" /></td>
-    <td><img src="https://imgur.com/Vs3lqqi.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/uO3u6rh.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/9sRUcTO.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>Open: Command Prompt. 1) Run command: nslookup domain (ex: nslookup corp.rashaditlabs.com). 2) Run command: nslookup windows server computer name.domain (ex: nslookup RIT-DC1.corp.rashaditlabs.com). 3) Run command: nltest /dsgetdc: domain (ex: nltest /dsgetdc:corp.rashaditlabs.com).</b></span> 
+<br/><br/>
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>•	NOTE: You only want to see the DNS IP Address used as the Preferred DNS server on the Internal (Host-Only) and External (NAT) – (ex: 10.0.0.4).</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/CezDFXD.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/cf8YHS1.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/vIF4x7Y.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>Restart the Windows 11 Virtual Machine.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/3JEuTX4.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/rSHjWpu.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>HOW TO SOLVE THE ERROR: “…A general network error occurred.” – PART FOUR – WINDOWS 11</b></span> 
+<br/><br/>
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>Go back to the pop-up box called: Computer Name/Domain Changes. Click: OK. If you still get the error: “…A general network error occurred.”. Click: OK. Go to the next fix. If successful, go to: WINDOWS 11 – CLIENT COMPUTER SETUP CONTINUED.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/kEaeqTq.png" height="50%" width="50%" /></td>
+    <td><img src="https://imgur.com/Vs3lqqi.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/0cVCsmy.png" height="75%" width="75%" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/5oPrPvj.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/6D3BOcK.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<br /><br />
+
+
+</div>
+  <span style="font-family: Arial, sans-serif; font-size: 16px;"><b>Open: Internal (Host-Only) Properties. Make sure these are check: 1) Client for Microsoft Networks, 2) File and Printer Sharing for Microsoft Networks, 3) Internet Protocol Version 4 (TCP/IPv4). Click: OK.</b></span> 
+<br/><br/>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/s0d9SlF.png" height="75%" width="75%" /></td>
+    <td><img src="https://imgur.com/7hfP4XH.png" height="75%" width="75%" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/J614WMx.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/7hfP4XH.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/eGk4SGt.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/Aw1lPJ2.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/MBohj7S.png" height="100%" width="100%" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="https://imgur.com/C2k3z92.png" height="750%" width="75%" /></td>
+    <td><img src="https://imgur.com/BPvxZNc.png" height="100%" width="100%" /></td>
+    <td><img src="https://imgur.com/MCPpArg.png" height="100%" width="100%" /></td>
   </tr>
 </table>
 
